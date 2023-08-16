@@ -1,7 +1,11 @@
-<script setup></script>
+<script setup>
+import PizzaList from '../components/PizzaList.vue';
+
+
+</script>
 
 <template>
   <main>
-    <p>Hello Pizza</p>
+    <PizzaList />
   </main>
 </template>
