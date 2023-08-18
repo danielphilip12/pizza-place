@@ -22,4 +22,9 @@ const props = defineProps({
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style scoped>
+.card:hover {
+  box-shadow: 5px 5px 5px 5px orange;
+  cursor: pointer;
+}
+</style>
