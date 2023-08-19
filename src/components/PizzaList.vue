@@ -14,6 +14,7 @@ onMounted(() => {
 <template>
     <div>
         <h1>Pizza List</h1>
+        <p v-show="pizzas.length < 1">Loading</p>
         <div class="row row-cols-3 row-cols-md-3 g-4">
             <Pizza v-for="pizza in pizzas" :pizza="pizza"/>
         </div>
