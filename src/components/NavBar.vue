@@ -19,6 +19,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <RouterLink class="nav-link bg-info me-2 rounded" to="/">Home</RouterLink>
+            <RouterLink class="nav-link bg-info me-2 rounded" to="/orders">Orders</RouterLink>
             <RouterLink class="nav-link bg-info me-2 rounded" to="/about">About</RouterLink>
             <!-- <RouterLink class="nav-link" to="/">Pricing</RouterLink> -->
           </div>

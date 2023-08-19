@@ -21,5 +21,28 @@
       "image": "https://media.istockphoto.com/id/1327824204/photo/pizza-with-tomato-bacon-cheese-lightly-salted-cucumbers-with-herbs-overhead-view-isolated-on.jpg?s=2048x2048&w=is&k=20&c=OQlRs8o9e2q0yue_rKmg0JQlFS6w6-kqn46FWX1Dk7s=",
       "ingredients": ["Cheese", "Vegetables"]
     }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customer": "Daniel",
+      "pizzasOrdered": [1, 2],
+      "total": 23.98,
+      "delivery": false
+    },
+    {
+      "id": 2,
+      "customer": "Joshua",
+      "pizzasOrdered": [1, 3],
+      "total": 26.98,
+      "delivery": true
+    },
+    {
+      "id": 3,
+      "customer": "Noah",
+      "pizzasOrdered": [1, 2, 2],
+      "total": 36.97,
+      "delivery": true
+    }
   ]
 }
