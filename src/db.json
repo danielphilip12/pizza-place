@@ -4,19 +4,22 @@
       "id": 1,
       "name": "Cheese",
       "price": 10.99,
-      "image": "https://media.istockphoto.com/id/1168754685/photo/pizza-margarita-with-cheese-top-view-isolated-on-white-background.jpg?s=2048x2048&w=is&k=20&c=ZJmcqSyOzcM8UhDJPEJ4QvwTT59tIVkSS27rdwGljP4="
+      "image": "https://media.istockphoto.com/id/1168754685/photo/pizza-margarita-with-cheese-top-view-isolated-on-white-background.jpg?s=2048x2048&w=is&k=20&c=ZJmcqSyOzcM8UhDJPEJ4QvwTT59tIVkSS27rdwGljP4=",
+      "ingredients": ["Cheese"]
     },
     {
       "id": 2,
       "name": "Pepperoni",
       "price": 12.99,
-      "image": "https://media.istockphoto.com/id/184928432/photo/pizza-from-the-top-pepperoni-cheese.jpg?s=2048x2048&w=is&k=20&c=DkGD3S8C01FOXNLIctCU4-S4As5SeRs6xhPvdVjXZ-o="
+      "image": "https://media.istockphoto.com/id/184928432/photo/pizza-from-the-top-pepperoni-cheese.jpg?s=2048x2048&w=is&k=20&c=DkGD3S8C01FOXNLIctCU4-S4As5SeRs6xhPvdVjXZ-o=",
+      "ingredients": ["Cheese", "Pepperoni"]
     },
     {
       "id": 3,
       "name": "Veggie",
       "price": 15.99,
-      "image": "https://media.istockphoto.com/id/1327824204/photo/pizza-with-tomato-bacon-cheese-lightly-salted-cucumbers-with-herbs-overhead-view-isolated-on.jpg?s=2048x2048&w=is&k=20&c=OQlRs8o9e2q0yue_rKmg0JQlFS6w6-kqn46FWX1Dk7s="
+      "image": "https://media.istockphoto.com/id/1327824204/photo/pizza-with-tomato-bacon-cheese-lightly-salted-cucumbers-with-herbs-overhead-view-isolated-on.jpg?s=2048x2048&w=is&k=20&c=OQlRs8o9e2q0yue_rKmg0JQlFS6w6-kqn46FWX1Dk7s=",
+      "ingredients": ["Cheese", "Vegetables"]
     }
   ]
 }
