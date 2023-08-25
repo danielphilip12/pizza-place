@@ -1,14 +1,11 @@
 <script setup>
-import axios from "axios"; 
+import NewOrder from "../components/NewOrder.vue"
 </script>
 
 <template>
-    <div>
-        
-    </div>
+  <div>
+    <NewOrder />
+  </div>
 </template>
 
-
-<style lang="css" scoped>
-
-</style>
+<style lang="css" scoped></style>

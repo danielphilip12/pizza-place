@@ -27,16 +27,18 @@ const pizzasOrdered = computed(() => {
 <template>
   <div class="card mb-3">
     <div class="card-body">
-      <h5 class="card-title">{{ order.customer }}</h5>
-      <h6 class="card-subtitle mb-2 text-body-secondary">
-        Delivery: {{ order.delivery }}
-      </h6>
-      <p class="card-text">
-        {{ order.total }}
+      <h5 class="card-title">Customer {{ order.customer }}</h5>
+
+      <div class="card-text">
+        <h5>Order Details</h5>
+        Total: ${{ order.total }}
         <ul>
           <li v-for="pizza in pizzasOrdered">{{ pizza }}</li>
         </ul>
-      </p>
+        <h6 class="card-subtitle mb-2 text-body-secondary">
+          Delivery: {{ order.delivery }}
+        </h6>
+      </div>
     </div>
   </div>
 </template>
